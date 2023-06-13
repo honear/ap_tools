@@ -5,13 +5,13 @@
 
 version: 1.0
 action:
-  name: Coding Examples
+  name: AP Tools
 
   version: 1
   id: ap::package::ap_tools
   category: video/tools
   type: package
-  enable: false
+  enable: true
   author: Anchorpoint Software GmbH
   description: A useful collection of <a href='https://github.com/Anchorpoint-Software/ap-actions'>Action examples</a> that showcase how to write your own Actions
   icon:
