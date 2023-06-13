@@ -8,8 +8,8 @@ action:
   name: Coding Examples
 
   version: 1
-  id: ap::package::examples
-  category: utility/code/examples
+  id: ap::package::ap_tools
+  category: video/tools
   type: package
   enable: false
   author: Anchorpoint Software GmbH
