@@ -1,8 +1,6 @@
-# Examples
+# Blender Actions
 
-This folder contains various example actions that are a very good starting point.
-Use these snippets to learn how to write Anchorpoint actions.
+With the [blender](https://www.blender.org) action you can render a thumbnail for Anchorpoint using Eevee. Make sure to provide the correct path to your blender installation in the YAML file.
 
-Within the UI folder, find various actions to create simple and more complex dialogs with python.
-The attributes examples show how to read and write attributes with python.
-Use the settings example to learn how to read and write settings for your actions.
+![Action GIF](https://raw.githubusercontent.com/Anchorpoint-Software/ap-actions-data/main/gif/blender_render_thumbnail.gif)
+

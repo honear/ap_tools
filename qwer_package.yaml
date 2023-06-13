@@ -1,0 +1,28 @@
+#Anchorpoint Markup Language
+#Predefined Variables: e.g. ${path}
+#Environment Variables: e.g. ${MY_VARIABLE}
+#Full documentation: https://docs.anchorpoint.app/Actions/Reference
+
+version: "1.0"
+
+action:
+  #Must Have Properties
+  name: "qwer"
+
+  #Optional Properties
+  version: 1
+  id: "ap::package::qwer"
+  category: "dcc/qwer"
+  type: package
+  enable: false
+  description: Render a thumbnail for qwer using qwer
+
+  author: "Anchorpoint qwer GmbH"
+  icon:
+    path: "qwer.svg"
+
+  actions:
+    - ap::qwer::thumbnail 
+
+
+    

@@ -1,0 +1,35 @@
+#Anchorpoint Markup Language
+#Predefined Variables: e.g. ${path}
+#Environment Variables: e.g. ${MY_VARIABLE}
+#Full documentation: https://docs.anchorpoint.app/Actions/Reference
+
+version: "1.0"
+
+action:
+  #Must Have Properties
+  name: "Blender / Render Thumbnail"
+
+  #Optional Properties
+  version: 1
+  id: "ap::blender::thumbnail"
+  category: "dcc/blender/thumbnail"
+  enable: false
+  type: python
+  author: "Anchorpoint Software GmbH"
+  icon:
+    path: "blender.svg"
+
+  script: "blender_thumbnail.py"
+  inputs:
+    blender:
+      message: Path to Blender  # The message that is displayed to the user
+      browse: file              # Show a browse button so that the user can browse to the executable
+      store: user               # Only ask once, store in user settings
+
+  dependencies:
+    - blender_eevee_settings.py
+
+  #Where to register this action
+  register:
+    file:
+      filter: "*.blend" #Wildcard matching
