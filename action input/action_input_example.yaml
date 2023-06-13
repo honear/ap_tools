@@ -5,10 +5,10 @@
 
 version: 1.0
 action:
-  name: Action Input Example
+  name: Other example
 
   version: 1
-  id: ap::examples::input
+  id: ap::examples::other
   category: utility/code/examples/input
   type: python
   enable: false
