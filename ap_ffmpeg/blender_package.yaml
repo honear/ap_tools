@@ -3,26 +3,26 @@
 #Environment Variables: e.g. ${MY_VARIABLE}
 #Full documentation: https://docs.anchorpoint.app/Actions/Reference
 
-version: "1.0"
+version: "0.1"
 
 action:
   #Must Have Properties
-  name: "Blender"
+  name: "Rolando's Action"
 
   #Optional Properties
   version: 1
-  id: "ap::package::blender"
-  category: "dcc/blender"
+  id: "ap::package::ap_tools"
+  category: "video"
   type: package
   enable: false
-  description: Render a thumbnail for Anchorpoint using Eevee
+  description: Description
 
-  author: "Anchorpoint Software GmbH"
+  author: "Rolando Barry"
   icon:
     path: "blender.svg"
 
   actions:
-    - ap::blender::thumbnail 
+    - ap::ap_tools::testaction 
 
 
     
